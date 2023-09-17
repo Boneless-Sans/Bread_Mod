@@ -1,3 +1,5 @@
 {
-  "item.breadmod.bread_ingot": "Bread Ingot"
+  "item.breadmod.bread_ingot": "Bread Ingot",
+  "item.breadmod.bread_stick": "Bread Stick",
+  "creativetab.bread_tab": "Bread"
 }
