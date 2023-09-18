@@ -1,6 +1,7 @@
 package net.boneless.breadmod;
 
 import com.mojang.logging.LogUtils;
+import net.boneless.breadmod.block.ModBlocks;
 import net.boneless.breadmod.item.ModCreativeModTabs;
 import net.boneless.breadmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -43,6 +44,7 @@ public class BreadMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

@@ -1,6 +1,7 @@
 package net.boneless.breadmod.item;
 
 import net.boneless.breadmod.BreadMod;
+import net.boneless.breadmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BREAD_INGOT.get());
                         pOutput.accept(ModItems.BREAD_STICK.get());
+
+                        pOutput.accept(ModBlocks.BREAD_BLOCK.get());
                     })
                     .build());
 
