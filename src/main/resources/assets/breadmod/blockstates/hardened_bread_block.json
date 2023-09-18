@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "breadmod:block/hardened_bread_block"
+    }
+  }
+}

@@ -18,10 +18,19 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BREAD_INGOT.get()))
                     .title(Component.translatable("creativetab.bread_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //base items first, polished, then hardned, than polished hardened
+
+                        //base
                         pOutput.accept(ModItems.BREAD_INGOT.get());
                         pOutput.accept(ModItems.BREAD_STICK.get());
 
                         pOutput.accept(ModBlocks.BREAD_BLOCK.get());
+
+                        //polished
+                        pOutput.accept(ModBlocks.POLISHED_BREAD_BLOCK.get());
+
+                        //hardened
+                        pOutput.accept(ModBlocks.HARDENED_BREAD_BLOCK.get());
                     })
                     .build());
 

@@ -4,5 +4,9 @@
 
   "block.breadmod.bread_block": "Bread Block",
 
+  "block.breadmod.polished_bread_block": "Polished Bread Block",
+
+  "block.breadmod.hardened_bread_block": "Hardened Bread Block",
+
   "creativetab.bread_tab": "Bread"
 }
