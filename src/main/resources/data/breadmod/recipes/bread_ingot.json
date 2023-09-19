@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "breadmod:bread_block"
+    }
+  ],
+  "result":
+  {
+    "item": "breadmod:bread_ingot",
+    "count": 9
+  }
+}

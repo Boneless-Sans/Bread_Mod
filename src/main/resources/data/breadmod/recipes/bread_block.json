@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "breadmod:bread_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "breadmod:bread_ingot",
+    "count": 1
+  }
+}

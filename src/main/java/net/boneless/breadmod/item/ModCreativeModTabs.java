@@ -31,6 +31,7 @@ public class ModCreativeModTabs {
 
                         //hardened
                         pOutput.accept(ModBlocks.HARDENED_BREAD_BLOCK.get());
+
                     })
                     .build());
 
