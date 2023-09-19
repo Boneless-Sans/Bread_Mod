@@ -14,11 +14,11 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BreadMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> Bread_TAB = CREATIVE_MODE_TABS.register("bread_tab",
+    public static final RegistryObject<CreativeModeTab> BREAD_TAB = CREATIVE_MODE_TABS.register("bread_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BREAD_INGOT.get()))
                     .title(Component.translatable("creativetab.bread_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        //base items first, polished, then hardned, than polished hardened
+                        //base items first, polished, then hardened, than polished hardened
 
                         //base
                         pOutput.accept(ModItems.BREAD_INGOT.get());
